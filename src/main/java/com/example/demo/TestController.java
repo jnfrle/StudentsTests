@@ -54,7 +54,6 @@ public class TestController {
     }
 
 
-
     @GetMapping("/addstudent")
     public String subjectForm(Model model){
         model.addAttribute("student", new Student());
